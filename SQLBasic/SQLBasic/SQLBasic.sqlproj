@@ -73,6 +73,7 @@
     <Folder Include="Task2\Task2_3" />
     <Folder Include="Task2\Task2_4" />
     <Folder Include="Task3" />
+    <Folder Include="Task3\PostDeploy" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Employees.sql" />
@@ -140,5 +141,11 @@
     <None Include="Task2\Task2_4\Task2_4_3.sql" />
     <None Include="Task3\From1.0_to_1.1.sql" />
     <None Include="Task3\From1.1_to_1.3.sql" />
+    <None Include="Task3\PostDeploy\InsertCategories.sql" />
+    <None Include="Task3\PostDeploy\InsertSuppliers.sql" />
+    <None Include="Task3\PostDeploy\InsertProducts.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Task3\PostDeploy\PostDeployment.sql" />
   </ItemGroup>
 </Project>
